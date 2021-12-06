@@ -47,6 +47,24 @@
     <Compile Remove="iterator\ArrayBackedProperties.cs" />
     <Compile Remove="iterator\Behavioral.Iterator.TreeTraversal.cs" />
     <Compile Remove="iterator\ExerciseAnswers.cs" />
+    <Compile Remove="Mediator\Behavioral.Mediator.ChatRoom.cs" />
+    <Compile Remove="Mediator\Behavioral.Mediator.MediatrDemo.Program.cs" />
+    <Compile Remove="Mediator\ExerciseAnswers.cs" />
+    <Compile Remove="Mediator\RxEventBroker.cs" />
+    <Compile Remove="Memento\Behavioral.Memento.Memento.cs" />
+    <Compile Remove="Memento\Behavioral.Memento.UndoRedo.cs" />
+    <Compile Remove="Memento\Memento.ExerciseAnswers.cs" />
+    <Compile Remove="NullObject\Behavioral.NullObject.NullObject.cs" />
+    <Compile Remove="NullObject\Behavioral.NullObject.NullObjectPattern.NullObjectSingleton.cs" />
+    <Compile Remove="NullObject\ExerciseAnswers.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.BidirectionalObserver.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.ContainerWireup.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.Events.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.ObserverInterfaces.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.PropertyDependencies.cs" />
+    <Compile Remove="Observer\Behavioral.Observer.WeakEventPattern.cs" />
+    <Compile Remove="Observer\ExerciseAnswers.cs" />
+    <Compile Remove="Observer\ObserverPattern.cs" />
     <Compile Remove="prototype\ArrayBackedProperties.cs" />
     <Compile Remove="prototype\Behavioral.Iterator.TreeTraversal.cs" />
     <Compile Remove="prototype\Creational.Prototype.CopyConstructors.cs" />
@@ -73,6 +91,26 @@
     <Compile Remove="SOLID_principle\SOLID.LSP.cs" />
     <Compile Remove="SOLID_principle\SOLID.OCP.cs" />
     <Compile Remove="SOLID_principle\SOLID.SRP.cs" />
+    <Compile Remove="State\Behavioral.State.Classic.cs" />
+    <Compile Remove="State\Behavioral.State.Handmade.cs" />
+    <Compile Remove="State\Behavioral.State.Stateless.cs" />
+    <Compile Remove="State\Behavioral.State.SwitchBased.cs" />
+    <Compile Remove="State\Behavioral.State.SwitchExpressions.cs" />
+    <Compile Remove="State\ExerciseAnswers.cs" />
+    <Compile Remove="Strategy\Behavioral.Strategy.ComparisonStrategies.cs" />
+    <Compile Remove="Strategy\Behavioral.Strategy.Dynamic.cs" />
+    <Compile Remove="Strategy\Behavioral.Strategy.Static.cs" />
+    <Compile Remove="Strategy\ExerciseAnswers.cs" />
+    <Compile Remove="Template\Behavioral.TemplateMethod.FunctionalTemplateMethod.cs" />
+    <Compile Remove="Template\Behavioral.TemplateMethod.TemplateMethod.cs" />
+    <Compile Remove="Template\ExerciseAnswers.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Acyclic.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Classic.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Dynamic.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Exercise.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Intrusive.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Reflective.cs" />
+    <Compile Remove="Visitor\Behavioral.Visitor.Transformer.Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -117,6 +155,24 @@
     <None Include="iterator\ArrayBackedProperties.cs" />
     <None Include="iterator\Behavioral.Iterator.TreeTraversal.cs" />
     <None Include="iterator\ExerciseAnswers.cs" />
+    <None Include="Mediator\Behavioral.Mediator.ChatRoom.cs" />
+    <None Include="Mediator\Behavioral.Mediator.MediatrDemo.Program.cs" />
+    <None Include="Mediator\ExerciseAnswers.cs" />
+    <None Include="Mediator\RxEventBroker.cs" />
+    <None Include="Memento\Behavioral.Memento.Memento.cs" />
+    <None Include="Memento\Behavioral.Memento.UndoRedo.cs" />
+    <None Include="Memento\Memento.ExerciseAnswers.cs" />
+    <None Include="NullObject\Behavioral.NullObject.NullObject.cs" />
+    <None Include="NullObject\Behavioral.NullObject.NullObjectPattern.NullObjectSingleton.cs" />
+    <None Include="NullObject\ExerciseAnswers.cs" />
+    <None Include="Observer\Behavioral.Observer.BidirectionalObserver.cs" />
+    <None Include="Observer\Behavioral.Observer.ContainerWireup.cs" />
+    <None Include="Observer\Behavioral.Observer.Events.cs" />
+    <None Include="Observer\Behavioral.Observer.ObserverInterfaces.cs" />
+    <None Include="Observer\Behavioral.Observer.PropertyDependencies.cs" />
+    <None Include="Observer\Behavioral.Observer.WeakEventPattern.cs" />
+    <None Include="Observer\ExerciseAnswers.cs" />
+    <None Include="Observer\ObserverPattern.cs" />
     <None Include="prototype\ArrayBackedProperties.cs" />
     <None Include="prototype\Behavioral.Iterator.TreeTraversal.cs" />
     <None Include="prototype\Creational.Prototype.CopyConstructors.cs" />
@@ -143,6 +199,26 @@
     <None Include="SOLID_principle\SOLID.LSP.cs" />
     <None Include="SOLID_principle\SOLID.OCP.cs" />
     <None Include="SOLID_principle\SOLID.SRP.cs" />
+    <None Include="State\Behavioral.State.Classic.cs" />
+    <None Include="State\Behavioral.State.Handmade.cs" />
+    <None Include="State\Behavioral.State.Stateless.cs" />
+    <None Include="State\Behavioral.State.SwitchBased.cs" />
+    <None Include="State\Behavioral.State.SwitchExpressions.cs" />
+    <None Include="State\ExerciseAnswers.cs" />
+    <None Include="Strategy\Behavioral.Strategy.ComparisonStrategies.cs" />
+    <None Include="Strategy\Behavioral.Strategy.Dynamic.cs" />
+    <None Include="Strategy\Behavioral.Strategy.Static.cs" />
+    <None Include="Strategy\ExerciseAnswers.cs" />
+    <None Include="Template\Behavioral.TemplateMethod.FunctionalTemplateMethod.cs" />
+    <None Include="Template\Behavioral.TemplateMethod.TemplateMethod.cs" />
+    <None Include="Template\ExerciseAnswers.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Acyclic.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Classic.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Dynamic.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Exercise.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Intrusive.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Reflective.cs" />
+    <None Include="Visitor\Behavioral.Visitor.Transformer.Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
