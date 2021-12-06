@@ -1,0 +1,155 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Adapter\AutofacDemos.Adapters.cs" />
+    <Compile Remove="Adapter\ExerciseAnswers.cs" />
+    <Compile Remove="Adapter\Structural.Adapter.GenericValueAdapter.cs" />
+    <Compile Remove="Adapter\Structural.Adapter.NoCaching.cs" />
+    <Compile Remove="Adapter\Structural.Adapter.WithCaching.cs" />
+    <Compile Remove="Bridge\ExerciseAnswers.cs" />
+    <Compile Remove="Bridge\Structural.Bridge.Bridge.cs" />
+    <Compile Remove="builder\Creational.Builder.Builder.cs" />
+    <Compile Remove="builder\Creational.Builder.BuilderFacets.cs" />
+    <Compile Remove="builder\Creational.Builder.BuilderInheritance.cs" />
+    <Compile Remove="builder\Creational.Builder.FunctionalBuilder.cs" />
+    <Compile Remove="builder\Creational.Builder.StepwiseBuilder.Program.cs" />
+    <Compile Remove="builder\ExerciseAnswers.cs" />
+    <Compile Remove="ChainsOfResponsibility\Behavioral.ChainOfResponsibility.BrokerChain.cs" />
+    <Compile Remove="ChainsOfResponsibility\Behavioral.ChainOfResponsibility.MethodChain.cs" />
+    <Compile Remove="Command\Behavioral.Command.Command.cs" />
+    <Compile Remove="Command\Behavioral.Command.CompositeCommand.cs" />
+    <Compile Remove="Command\ExerciseAnswers.cs" />
+    <Compile Remove="Composite\ExerciseAnswers.cs" />
+    <Compile Remove="Composite\Structural.Composite.GeometricShapes.cs" />
+    <Compile Remove="Composite\Structural.Composite.NeuralNetworks.cs" />
+    <Compile Remove="Decorator\AutofacDemos.Decorators.cs" />
+    <Compile Remove="Decorator\ExerciseAnswers.cs" />
+    <Compile Remove="Decorator\Structural.Decorator.AdapterDecorator.cs" />
+    <Compile Remove="Decorator\Structural.Decorator.CodeBuilder.cs" />
+    <Compile Remove="Decorator\Structural.Decorator.CycleDetection.cs" />
+    <Compile Remove="Decorator\Structural.Decorator.Decorator.cs" />
+    <Compile Remove="Decorator\Structural.Decorator.MultipleInheritance.cs" />
+    <Compile Remove="facade\Structural.Facade.Exercise.cs" />
+    <Compile Remove="factory\Creational.Factories.AbstractFactory.cs" />
+    <Compile Remove="factory\Creational.Factories.BulkReplacement.Program.cs" />
+    <Compile Remove="factory\Creational.Factories.Factory.cs" />
+    <Compile Remove="factory\ExerciseAnswers.cs" />
+    <Compile Remove="Flyweight\ExerciseAnswers.cs" />
+    <Compile Remove="Flyweight\Structural.Flyweight.TextFormatting.cs" />
+    <Compile Remove="Flyweight\Structural.Flyweight.Users.cs" />
+    <Compile Remove="interpreter\Behavioral.Interpreter.Handmade.cs" />
+    <Compile Remove="interpreter\ExerciseAnswers.cs" />
+    <Compile Remove="iterator\ArrayBackedProperties.cs" />
+    <Compile Remove="iterator\Behavioral.Iterator.TreeTraversal.cs" />
+    <Compile Remove="iterator\ExerciseAnswers.cs" />
+    <Compile Remove="prototype\ArrayBackedProperties.cs" />
+    <Compile Remove="prototype\Behavioral.Iterator.TreeTraversal.cs" />
+    <Compile Remove="prototype\Creational.Prototype.CopyConstructors.cs" />
+    <Compile Remove="prototype\Creational.Prototype.CopyThroughSerialization.cs" />
+    <Compile Remove="prototype\Creational.Prototype.Inheritance.cs" />
+    <Compile Remove="prototype\ExerciseAnswers.cs" />
+    <Compile Remove="Proxy\PropertyProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.BitFragging.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.CompositeProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.DynamicProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.Exercise.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.ProtectionProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.SoACompositeProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.ValueProxy.cs" />
+    <Compile Remove="Proxy\Structural.Proxy.ViewModel.cs" />
+    <Compile Remove="Singleton\Creational.Singleton.AmbientContext.cs" />
+    <Compile Remove="Singleton\Creational.Singleton.Monostate.cs" />
+    <Compile Remove="Singleton\Creational.Singleton.PerThreadSingleton.cs" />
+    <Compile Remove="Singleton\Creational.Singleton.Singleton.cs" />
+    <Compile Remove="Singleton\Creational.Singleton.SingletonInDI.cs" />
+    <Compile Remove="Singleton\ExerciseAnswers.cs" />
+    <Compile Remove="SOLID_principle\SOLID.DIP.cs" />
+    <Compile Remove="SOLID_principle\SOLID.ISP.cs" />
+    <Compile Remove="SOLID_principle\SOLID.LSP.cs" />
+    <Compile Remove="SOLID_principle\SOLID.OCP.cs" />
+    <Compile Remove="SOLID_principle\SOLID.SRP.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Adapter\AutofacDemos.Adapters.cs" />
+    <None Include="Adapter\ExerciseAnswers.cs" />
+    <None Include="Adapter\Structural.Adapter.GenericValueAdapter.cs" />
+    <None Include="Adapter\Structural.Adapter.NoCaching.cs" />
+    <None Include="Adapter\Structural.Adapter.WithCaching.cs" />
+    <None Include="Bridge\ExerciseAnswers.cs" />
+    <None Include="Bridge\Structural.Bridge.Bridge.cs" />
+    <None Include="builder\Creational.Builder.Builder.cs" />
+    <None Include="builder\Creational.Builder.BuilderFacets.cs" />
+    <None Include="builder\Creational.Builder.BuilderInheritance.cs" />
+    <None Include="builder\Creational.Builder.FunctionalBuilder.cs" />
+    <None Include="builder\Creational.Builder.StepwiseBuilder.Program.cs" />
+    <None Include="builder\ExerciseAnswers.cs" />
+    <None Include="ChainsOfResponsibility\Behavioral.ChainOfResponsibility.BrokerChain.cs" />
+    <None Include="ChainsOfResponsibility\Behavioral.ChainOfResponsibility.MethodChain.cs" />
+    <None Include="Command\Behavioral.Command.Command.cs" />
+    <None Include="Command\Behavioral.Command.CompositeCommand.cs" />
+    <None Include="Command\ExerciseAnswers.cs" />
+    <None Include="Composite\ExerciseAnswers.cs" />
+    <None Include="Composite\Structural.Composite.GeometricShapes.cs" />
+    <None Include="Composite\Structural.Composite.NeuralNetworks.cs" />
+    <None Include="Decorator\AutofacDemos.Decorators.cs" />
+    <None Include="Decorator\ExerciseAnswers.cs" />
+    <None Include="Decorator\Structural.Decorator.AdapterDecorator.cs" />
+    <None Include="Decorator\Structural.Decorator.CodeBuilder.cs" />
+    <None Include="Decorator\Structural.Decorator.CycleDetection.cs" />
+    <None Include="Decorator\Structural.Decorator.Decorator.cs" />
+    <None Include="Decorator\Structural.Decorator.MultipleInheritance.cs" />
+    <None Include="facade\Structural.Facade.Exercise.cs" />
+    <None Include="factory\Creational.Factories.AbstractFactory.cs" />
+    <None Include="factory\Creational.Factories.BulkReplacement.Program.cs" />
+    <None Include="factory\Creational.Factories.Factory.cs" />
+    <None Include="factory\ExerciseAnswers.cs" />
+    <None Include="Flyweight\ExerciseAnswers.cs" />
+    <None Include="Flyweight\Structural.Flyweight.TextFormatting.cs" />
+    <None Include="Flyweight\Structural.Flyweight.Users.cs" />
+    <None Include="interpreter\Behavioral.Interpreter.Handmade.cs" />
+    <None Include="interpreter\ExerciseAnswers.cs" />
+    <None Include="iterator\ArrayBackedProperties.cs" />
+    <None Include="iterator\Behavioral.Iterator.TreeTraversal.cs" />
+    <None Include="iterator\ExerciseAnswers.cs" />
+    <None Include="prototype\ArrayBackedProperties.cs" />
+    <None Include="prototype\Behavioral.Iterator.TreeTraversal.cs" />
+    <None Include="prototype\Creational.Prototype.CopyConstructors.cs" />
+    <None Include="prototype\Creational.Prototype.CopyThroughSerialization.cs" />
+    <None Include="prototype\Creational.Prototype.Inheritance.cs" />
+    <None Include="prototype\ExerciseAnswers.cs" />
+    <None Include="Proxy\PropertyProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.BitFragging.cs" />
+    <None Include="Proxy\Structural.Proxy.CompositeProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.DynamicProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.Exercise.cs" />
+    <None Include="Proxy\Structural.Proxy.ProtectionProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.SoACompositeProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.ValueProxy.cs" />
+    <None Include="Proxy\Structural.Proxy.ViewModel.cs" />
+    <None Include="Singleton\Creational.Singleton.AmbientContext.cs" />
+    <None Include="Singleton\Creational.Singleton.Monostate.cs" />
+    <None Include="Singleton\Creational.Singleton.PerThreadSingleton.cs" />
+    <None Include="Singleton\Creational.Singleton.Singleton.cs" />
+    <None Include="Singleton\Creational.Singleton.SingletonInDI.cs" />
+    <None Include="Singleton\ExerciseAnswers.cs" />
+    <None Include="SOLID_principle\SOLID.DIP.cs" />
+    <None Include="SOLID_principle\SOLID.ISP.cs" />
+    <None Include="SOLID_principle\SOLID.LSP.cs" />
+    <None Include="SOLID_principle\SOLID.OCP.cs" />
+    <None Include="SOLID_principle\SOLID.SRP.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.DotMemoryUnit" Version="3.1.20200127.214830" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
